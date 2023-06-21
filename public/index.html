@@ -47,17 +47,17 @@
         <div class="details" id="todays_arrow">
             <ion-icon name="arrow-forward-outline"></ion-icon>
         </div>
-        <!--- ><div class="todays_activity calorie">
+        <div class="todays_activity calorie">
             <div class="exercise__names__calories">CALORIES<br><label id="todays_calorie">0</label></div>
-        </div> -->
-        <!--- ><div class="todays_activity pushup">
-            <div class="exercise__names">PUSHUPS<br><label id="todays_pushups">0</label></div>
-        </div> -->
-        <div class="todays_activity armCircles">
-            <div class="exercise__names">Arm Circles<br><label id="todays_armCircles">0</label></div>
         </div>
-        <div class="todays_activity lateralRaises">
-            <div class="exercise__names__lateralRaises">Lateral Raises<br><label id="todays_lateralRaises">0</label></div>
+        <div class="todays_activity pushup">
+            <div class="exercise__names">PUSHUPS<br><label id="todays_pushups">0</label></div>
+        </div>
+        <div class="todays_activity squats">
+            <div class="exercise__names">SQUATS<br><label id="todays_squats">0</label></div>
+        </div>
+        <div class="todays_activity armcircles">
+            <div class="exercise__names__armcircles">ARMCIRCLES<br><label id="todays_armcircles">0</label></div>
         </div>
 
         <!--Weekly Stats-->
@@ -67,27 +67,19 @@
         <div class="weekly__details">
             <ion-icon name="arrow-forward-outline"></ion-icon>
         </div>
-        <div class="weekday Mon" onclick="showDayActivity('Monday')">
+        <div class="weekday mon" onclick="showDayActivity('monday')">
             <p>MON</p>
         </div>
-        <div class="weekday Tue" onclick="showDayActivity('Tuesday')">
+        <div class="weekday tue" onclick="showDayActivity('tuesday')">
             <p>TUE</p>
         </div>
-        <div class="weekday Wed" onclick="showDayActivity('Wednesday')">
+        <div class="weekday wed" onclick="showDayActivity('wednesday')">
             <p>WED</p>
         </div>
-        <div class="weekday Thu" onclick="showDayActivity('Thursday')">
+        <div class="weekday thu" onclick="showDayActivity('thursday')">
             <p>THU</p>
         </div>
-        <div class="weekday Fri" onclick="showDayActivity('Friday')">
-        	<p>FRI</p>
-        </div>
-        <div class="weekend Sat" onclick="showDayActivity('Saturday')">
-        	<p>SAT</p>
-        </div>
-        <div class="weekend Sun" onclick="showDayActivity('Sunday')">
-        	<p>SUN</p>
-        </div>
+
         <!--Navbar-->
         <div class="icon" id="navbar__home">
             <div class="icon__home">
@@ -112,29 +104,29 @@
             <p>Daily Activity <label> Stats</label></p>
         </div>
         <div id="activity">
-            <!--- ><div class="activity__card" id="activity__pushup">
+            <div class="activity__card" id="activity__pushup">
                 <div class="exercise__name">PUSHUP<br><label id="pushups__count">0</label></div>
 
-            </div> -->
-            <!--- ><div class="activity__card" id="activity__squats">
+            </div>
+            <div class="activity__card" id="activity__squats">
                 <div class="exercise__name">SQUATS<br><label id="squats__count">0</label></div>
 
-            </div> -->
-            <div class="activity__card" id="activity__armCircles">
-                <div class="exercise__name">Arm Circles<br><label id="armCircles__count">0</label></div>
+            </div>
+            <div class="activity__card" id="activity__armcircles">
+                <div class="exercise__name">ARMCIRCLES<br><label id="armcircles__count">0</label></div>
 
             </div>
-            <div class="activity__card" id="activity__lateralRaises">
-                <div class="exercise__name">Lateral Raises<br><label id="lateralRaises__count">0</label></div>
+            <div class="activity__card" id="activity__situp">
+                <div class="exercise__name">SITUP<br><label id="situp__count">0</label></div>
 
             </div>
-            <!--- ><div class="activity__card" id="activity__pullup">
+            <div class="activity__card" id="activity__pullup">
                 <div class="exercise__name">PULLUP<br><label id="pullup__count">0</label></div>
 
-            </div> -->
-            <!--- ><div class="activity__card" id="activity__planck">
+            </div>
+            <div class="activity__card" id="activity__planck">
                 <div class="exercise__name">PLANCK<br><label id="planck__count">0</label></div>
-            </div> -->
+            </div>
         </div>
 
         <div class="icon" id="navbar__activity">
@@ -191,29 +183,29 @@
             <p id="day_name">Daily Activity <label> Stats</label></p>
         </div>
         <div id="activity">
-            <!--- ><div class="activity__card" id="activity__pushup">
+            <div class="activity__card" id="activity__pushup">
                 <div class="exercise__name">PUSHUP<br><label id="day__pushups__count">0</label></div>
 
             </div>
             <div class="activity__card" id="activity__squats">
                 <div class="exercise__name">SQUATS<br><label id="day__squats__count">0</label></div>
 
-            </div> -->
-            <div class="activity__card" id="activity__armCircles">
-                <div class="exercise__name">Arm Circles<br><label id="day__armCircles__count">0</label></div>
+            </div>
+            <div class="activity__card" id="activity__armcircles">
+                <div class="exercise__name">ARMCIRCLES<br><label id="day__armcircles__count">0</label></div>
 
             </div>
-            <div class="activity__card" id="activity__lateralRaises">
-                <div class="exercise__name">Lateral Raises<br><label id="day__lateralRaises__count">0</label></div>
+            <div class="activity__card" id="activity__situp">
+                <div class="exercise__name">SITUP<br><label id="day__situp__count">0</label></div>
 
             </div>
-            <!--- ><div class="activity__card" id="activity__pullup">
+            <div class="activity__card" id="activity__pullup">
                 <div class="exercise__name">PULLUP<br><label id="day__pullup__count">0</label></div>
 
             </div>
             <div class="activity__card" id="activity__planck">
                 <div class="exercise__name">PLANCK<br><label id="day__planck__count">0</label></div>
-            </div> -->
+            </div>
         </div>
         <div class="icon" id="navbar__activity">
             <div class="icon__home">
