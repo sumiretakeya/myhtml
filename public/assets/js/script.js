@@ -8,17 +8,6 @@ const todaysHomeArrow = document.getElementById('arrow__icon')
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyClcAxHpCguAxBoBV9QimGosUozgFQEnD0",
-  authDomain: "mlfitnesstracker.firebaseapp.com",
-  projectId: "mlfitnesstracker",
-  storageBucket: "mlfitnesstracker.appspot.com",
-  messagingSenderId: "297583703246",
-  appId: "1:297583703246:web:5476b9c6fa29e6fd618c9f",
-  measurementId: "G-G0Y9R33H4C"
-};
-
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
   apiKey: "AIzaSyCyp_QTB7ePntDn2B3CBSEBu9gbAfNWz5A",
   authDomain: "ml-fitness-tracker.firebaseapp.com",
   databaseURL: "https://ml-fitness-tracker-default-rtdb.firebaseio.com",
